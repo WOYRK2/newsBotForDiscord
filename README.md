@@ -469,5 +469,5 @@ Copyright (c) 2026 WOYRK2
 ```
 Возникла проблема или есть вопросы?
 Присоединяйся к Discord серверу поддержки:
-🔗 https://discord.gg/ваша_ссылка
+🔗 https://discord.gg/G6fVkrwkza
 ```
