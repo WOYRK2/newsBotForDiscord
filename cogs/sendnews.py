@@ -9,23 +9,6 @@ from time import time
 class sendnews(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    
-    def userbd_edit(userid):
-        with open('user.json', 'r', encoding='utf-8') as f:
-            js = load(f)
-        
-        if not str(userid) in js:
-            data = f'{userid}' = {
-                'news': 1,
-                'kdnews': {time()}
-            }
-
-            with open('user.json', 'w', encoding='utf-8') as f:
-                dump(data, f , ensure_ascii=False, indent=4)
-                return
-        
-        
-
 
 #Упом рольки/без цвета
     class sendmodal_mentetion(disnake.ui.Modal):
